@@ -82,19 +82,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/adrignat/Personal/projects/stacks_and_queues/Person.cpp">
+		<Unit filename="/Users/adrignat/Personal/projects/stacks_and_queues/h/Person.h">
 			<Option target="stacks_and_queues"/>
 		</Unit>
-		<Unit filename="/Users/adrignat/Personal/projects/stacks_and_queues/Person.h">
+		<Unit filename="/Users/adrignat/Personal/projects/stacks_and_queues/h/Point.h">
 			<Option target="stacks_and_queues"/>
 		</Unit>
-		<Unit filename="/Users/adrignat/Personal/projects/stacks_and_queues/Point.cpp">
+		<Unit filename="/Users/adrignat/Personal/projects/stacks_and_queues/src/Person.cpp">
 			<Option target="stacks_and_queues"/>
 		</Unit>
-		<Unit filename="/Users/adrignat/Personal/projects/stacks_and_queues/Point.h">
+		<Unit filename="/Users/adrignat/Personal/projects/stacks_and_queues/src/Point.cpp">
 			<Option target="stacks_and_queues"/>
 		</Unit>
-		<Unit filename="/Users/adrignat/Personal/projects/stacks_and_queues/main.cpp">
+		<Unit filename="/Users/adrignat/Personal/projects/stacks_and_queues/src/main.cpp">
 			<Option target="stacks_and_queues"/>
 		</Unit>
 		<Unit filename="/Users/adrignat/Personal/projects/stacks_and_queues/CMakeLists.txt">

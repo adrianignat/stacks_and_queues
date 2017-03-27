@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/adrignat/Personal/projects/stacks_and_queues/Person.cpp" "/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug/CMakeFiles/stacks_and_queues.dir/Person.cpp.o"
-  "/Users/adrignat/Personal/projects/stacks_and_queues/Point.cpp" "/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug/CMakeFiles/stacks_and_queues.dir/Point.cpp.o"
-  "/Users/adrignat/Personal/projects/stacks_and_queues/main.cpp" "/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug/CMakeFiles/stacks_and_queues.dir/main.cpp.o"
+  "/Users/adrignat/Personal/projects/stacks_and_queues/src/Person.cpp" "/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug/CMakeFiles/stacks_and_queues.dir/src/Person.cpp.o"
+  "/Users/adrignat/Personal/projects/stacks_and_queues/src/Point.cpp" "/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug/CMakeFiles/stacks_and_queues.dir/src/Point.cpp.o"
+  "/Users/adrignat/Personal/projects/stacks_and_queues/src/main.cpp" "/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug/CMakeFiles/stacks_and_queues.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/stacks_and_queues.dir/main.cpp.o"
-  "CMakeFiles/stacks_and_queues.dir/Point.cpp.o"
-  "CMakeFiles/stacks_and_queues.dir/Person.cpp.o"
+  "CMakeFiles/stacks_and_queues.dir/src/main.cpp.o"
+  "CMakeFiles/stacks_and_queues.dir/src/Point.cpp.o"
+  "CMakeFiles/stacks_and_queues.dir/src/Person.cpp.o"
   "stacks_and_queues.pdb"
   "stacks_and_queues"
 )

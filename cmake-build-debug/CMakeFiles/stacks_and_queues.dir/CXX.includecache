@@ -6,29 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/Users/adrignat/Personal/projects/stacks_and_queues/Person.cpp
-iostream
--
-Person.h
-/Users/adrignat/Personal/projects/stacks_and_queues/Person.h
-
-/Users/adrignat/Personal/projects/stacks_and_queues/Person.h
+/Users/adrignat/Personal/projects/stacks_and_queues/h/Person.h
 string
 -
 Point.h
-/Users/adrignat/Personal/projects/stacks_and_queues/Point.h
+/Users/adrignat/Personal/projects/stacks_and_queues/h/Point.h
 
-/Users/adrignat/Personal/projects/stacks_and_queues/Point.cpp
+/Users/adrignat/Personal/projects/stacks_and_queues/h/Point.h
+
+/Users/adrignat/Personal/projects/stacks_and_queues/src/Person.cpp
 iostream
 -
-Point.h
-/Users/adrignat/Personal/projects/stacks_and_queues/Point.h
+../h/Person.h
+/Users/adrignat/Personal/projects/stacks_and_queues/h/Person.h
 
-/Users/adrignat/Personal/projects/stacks_and_queues/Point.h
-
-/Users/adrignat/Personal/projects/stacks_and_queues/main.cpp
+/Users/adrignat/Personal/projects/stacks_and_queues/src/Point.cpp
 iostream
 -
-Person.h
-/Users/adrignat/Personal/projects/stacks_and_queues/Person.h
+../h/Point.h
+/Users/adrignat/Personal/projects/stacks_and_queues/h/Point.h
+
+/Users/adrignat/Personal/projects/stacks_and_queues/src/main.cpp
+iostream
+-
+../h/Person.h
+/Users/adrignat/Personal/projects/stacks_and_queues/h/Person.h
 

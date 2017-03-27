@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Point.h"
+#include "../h/Point.h"
 
 using namespace std;
 
@@ -9,7 +9,7 @@ Point::Point(float x, float y) {
 }
 
 void Point::display() {
-    cout<<"Les coordonnees sont: "<< x << " " << y;
+    cout << "Les coordonnees sont: " << x << " " << y;
 }
 
 void Point::setX(float x) {

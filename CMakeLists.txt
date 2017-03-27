@@ -3,5 +3,5 @@ project(stacks_and_queues)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp Point.cpp Point.h Person.cpp Person.h)
+set(SOURCE_FILES src/main.cpp src/Point.cpp h/Point.h src/Person.cpp h/Person.h)
 add_executable(stacks_and_queues ${SOURCE_FILES})

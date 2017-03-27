@@ -57,90 +57,90 @@ include CMakeFiles/stacks_and_queues.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/stacks_and_queues.dir/flags.make
 
-CMakeFiles/stacks_and_queues.dir/main.cpp.o: CMakeFiles/stacks_and_queues.dir/flags.make
-CMakeFiles/stacks_and_queues.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/stacks_and_queues.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stacks_and_queues.dir/main.cpp.o -c /Users/adrignat/Personal/projects/stacks_and_queues/main.cpp
+CMakeFiles/stacks_and_queues.dir/src/main.cpp.o: CMakeFiles/stacks_and_queues.dir/flags.make
+CMakeFiles/stacks_and_queues.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/stacks_and_queues.dir/src/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stacks_and_queues.dir/src/main.cpp.o -c /Users/adrignat/Personal/projects/stacks_and_queues/src/main.cpp
 
-CMakeFiles/stacks_and_queues.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stacks_and_queues.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adrignat/Personal/projects/stacks_and_queues/main.cpp > CMakeFiles/stacks_and_queues.dir/main.cpp.i
+CMakeFiles/stacks_and_queues.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stacks_and_queues.dir/src/main.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adrignat/Personal/projects/stacks_and_queues/src/main.cpp > CMakeFiles/stacks_and_queues.dir/src/main.cpp.i
 
-CMakeFiles/stacks_and_queues.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stacks_and_queues.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adrignat/Personal/projects/stacks_and_queues/main.cpp -o CMakeFiles/stacks_and_queues.dir/main.cpp.s
+CMakeFiles/stacks_and_queues.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stacks_and_queues.dir/src/main.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adrignat/Personal/projects/stacks_and_queues/src/main.cpp -o CMakeFiles/stacks_and_queues.dir/src/main.cpp.s
 
-CMakeFiles/stacks_and_queues.dir/main.cpp.o.requires:
+CMakeFiles/stacks_and_queues.dir/src/main.cpp.o.requires:
 
-.PHONY : CMakeFiles/stacks_and_queues.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/stacks_and_queues.dir/src/main.cpp.o.requires
 
-CMakeFiles/stacks_and_queues.dir/main.cpp.o.provides: CMakeFiles/stacks_and_queues.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/stacks_and_queues.dir/build.make CMakeFiles/stacks_and_queues.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/stacks_and_queues.dir/main.cpp.o.provides
+CMakeFiles/stacks_and_queues.dir/src/main.cpp.o.provides: CMakeFiles/stacks_and_queues.dir/src/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/stacks_and_queues.dir/build.make CMakeFiles/stacks_and_queues.dir/src/main.cpp.o.provides.build
+.PHONY : CMakeFiles/stacks_and_queues.dir/src/main.cpp.o.provides
 
-CMakeFiles/stacks_and_queues.dir/main.cpp.o.provides.build: CMakeFiles/stacks_and_queues.dir/main.cpp.o
-
-
-CMakeFiles/stacks_and_queues.dir/Point.cpp.o: CMakeFiles/stacks_and_queues.dir/flags.make
-CMakeFiles/stacks_and_queues.dir/Point.cpp.o: ../Point.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/stacks_and_queues.dir/Point.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stacks_and_queues.dir/Point.cpp.o -c /Users/adrignat/Personal/projects/stacks_and_queues/Point.cpp
-
-CMakeFiles/stacks_and_queues.dir/Point.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stacks_and_queues.dir/Point.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adrignat/Personal/projects/stacks_and_queues/Point.cpp > CMakeFiles/stacks_and_queues.dir/Point.cpp.i
-
-CMakeFiles/stacks_and_queues.dir/Point.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stacks_and_queues.dir/Point.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adrignat/Personal/projects/stacks_and_queues/Point.cpp -o CMakeFiles/stacks_and_queues.dir/Point.cpp.s
-
-CMakeFiles/stacks_and_queues.dir/Point.cpp.o.requires:
-
-.PHONY : CMakeFiles/stacks_and_queues.dir/Point.cpp.o.requires
-
-CMakeFiles/stacks_and_queues.dir/Point.cpp.o.provides: CMakeFiles/stacks_and_queues.dir/Point.cpp.o.requires
-	$(MAKE) -f CMakeFiles/stacks_and_queues.dir/build.make CMakeFiles/stacks_and_queues.dir/Point.cpp.o.provides.build
-.PHONY : CMakeFiles/stacks_and_queues.dir/Point.cpp.o.provides
-
-CMakeFiles/stacks_and_queues.dir/Point.cpp.o.provides.build: CMakeFiles/stacks_and_queues.dir/Point.cpp.o
+CMakeFiles/stacks_and_queues.dir/src/main.cpp.o.provides.build: CMakeFiles/stacks_and_queues.dir/src/main.cpp.o
 
 
-CMakeFiles/stacks_and_queues.dir/Person.cpp.o: CMakeFiles/stacks_and_queues.dir/flags.make
-CMakeFiles/stacks_and_queues.dir/Person.cpp.o: ../Person.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/stacks_and_queues.dir/Person.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stacks_and_queues.dir/Person.cpp.o -c /Users/adrignat/Personal/projects/stacks_and_queues/Person.cpp
+CMakeFiles/stacks_and_queues.dir/src/Point.cpp.o: CMakeFiles/stacks_and_queues.dir/flags.make
+CMakeFiles/stacks_and_queues.dir/src/Point.cpp.o: ../src/Point.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/stacks_and_queues.dir/src/Point.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stacks_and_queues.dir/src/Point.cpp.o -c /Users/adrignat/Personal/projects/stacks_and_queues/src/Point.cpp
 
-CMakeFiles/stacks_and_queues.dir/Person.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stacks_and_queues.dir/Person.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adrignat/Personal/projects/stacks_and_queues/Person.cpp > CMakeFiles/stacks_and_queues.dir/Person.cpp.i
+CMakeFiles/stacks_and_queues.dir/src/Point.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stacks_and_queues.dir/src/Point.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adrignat/Personal/projects/stacks_and_queues/src/Point.cpp > CMakeFiles/stacks_and_queues.dir/src/Point.cpp.i
 
-CMakeFiles/stacks_and_queues.dir/Person.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stacks_and_queues.dir/Person.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adrignat/Personal/projects/stacks_and_queues/Person.cpp -o CMakeFiles/stacks_and_queues.dir/Person.cpp.s
+CMakeFiles/stacks_and_queues.dir/src/Point.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stacks_and_queues.dir/src/Point.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adrignat/Personal/projects/stacks_and_queues/src/Point.cpp -o CMakeFiles/stacks_and_queues.dir/src/Point.cpp.s
 
-CMakeFiles/stacks_and_queues.dir/Person.cpp.o.requires:
+CMakeFiles/stacks_and_queues.dir/src/Point.cpp.o.requires:
 
-.PHONY : CMakeFiles/stacks_and_queues.dir/Person.cpp.o.requires
+.PHONY : CMakeFiles/stacks_and_queues.dir/src/Point.cpp.o.requires
 
-CMakeFiles/stacks_and_queues.dir/Person.cpp.o.provides: CMakeFiles/stacks_and_queues.dir/Person.cpp.o.requires
-	$(MAKE) -f CMakeFiles/stacks_and_queues.dir/build.make CMakeFiles/stacks_and_queues.dir/Person.cpp.o.provides.build
-.PHONY : CMakeFiles/stacks_and_queues.dir/Person.cpp.o.provides
+CMakeFiles/stacks_and_queues.dir/src/Point.cpp.o.provides: CMakeFiles/stacks_and_queues.dir/src/Point.cpp.o.requires
+	$(MAKE) -f CMakeFiles/stacks_and_queues.dir/build.make CMakeFiles/stacks_and_queues.dir/src/Point.cpp.o.provides.build
+.PHONY : CMakeFiles/stacks_and_queues.dir/src/Point.cpp.o.provides
 
-CMakeFiles/stacks_and_queues.dir/Person.cpp.o.provides.build: CMakeFiles/stacks_and_queues.dir/Person.cpp.o
+CMakeFiles/stacks_and_queues.dir/src/Point.cpp.o.provides.build: CMakeFiles/stacks_and_queues.dir/src/Point.cpp.o
+
+
+CMakeFiles/stacks_and_queues.dir/src/Person.cpp.o: CMakeFiles/stacks_and_queues.dir/flags.make
+CMakeFiles/stacks_and_queues.dir/src/Person.cpp.o: ../src/Person.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/stacks_and_queues.dir/src/Person.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stacks_and_queues.dir/src/Person.cpp.o -c /Users/adrignat/Personal/projects/stacks_and_queues/src/Person.cpp
+
+CMakeFiles/stacks_and_queues.dir/src/Person.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stacks_and_queues.dir/src/Person.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adrignat/Personal/projects/stacks_and_queues/src/Person.cpp > CMakeFiles/stacks_and_queues.dir/src/Person.cpp.i
+
+CMakeFiles/stacks_and_queues.dir/src/Person.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stacks_and_queues.dir/src/Person.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adrignat/Personal/projects/stacks_and_queues/src/Person.cpp -o CMakeFiles/stacks_and_queues.dir/src/Person.cpp.s
+
+CMakeFiles/stacks_and_queues.dir/src/Person.cpp.o.requires:
+
+.PHONY : CMakeFiles/stacks_and_queues.dir/src/Person.cpp.o.requires
+
+CMakeFiles/stacks_and_queues.dir/src/Person.cpp.o.provides: CMakeFiles/stacks_and_queues.dir/src/Person.cpp.o.requires
+	$(MAKE) -f CMakeFiles/stacks_and_queues.dir/build.make CMakeFiles/stacks_and_queues.dir/src/Person.cpp.o.provides.build
+.PHONY : CMakeFiles/stacks_and_queues.dir/src/Person.cpp.o.provides
+
+CMakeFiles/stacks_and_queues.dir/src/Person.cpp.o.provides.build: CMakeFiles/stacks_and_queues.dir/src/Person.cpp.o
 
 
 # Object files for target stacks_and_queues
 stacks_and_queues_OBJECTS = \
-"CMakeFiles/stacks_and_queues.dir/main.cpp.o" \
-"CMakeFiles/stacks_and_queues.dir/Point.cpp.o" \
-"CMakeFiles/stacks_and_queues.dir/Person.cpp.o"
+"CMakeFiles/stacks_and_queues.dir/src/main.cpp.o" \
+"CMakeFiles/stacks_and_queues.dir/src/Point.cpp.o" \
+"CMakeFiles/stacks_and_queues.dir/src/Person.cpp.o"
 
 # External object files for target stacks_and_queues
 stacks_and_queues_EXTERNAL_OBJECTS =
 
-stacks_and_queues: CMakeFiles/stacks_and_queues.dir/main.cpp.o
-stacks_and_queues: CMakeFiles/stacks_and_queues.dir/Point.cpp.o
-stacks_and_queues: CMakeFiles/stacks_and_queues.dir/Person.cpp.o
+stacks_and_queues: CMakeFiles/stacks_and_queues.dir/src/main.cpp.o
+stacks_and_queues: CMakeFiles/stacks_and_queues.dir/src/Point.cpp.o
+stacks_and_queues: CMakeFiles/stacks_and_queues.dir/src/Person.cpp.o
 stacks_and_queues: CMakeFiles/stacks_and_queues.dir/build.make
 stacks_and_queues: CMakeFiles/stacks_and_queues.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable stacks_and_queues"
@@ -151,9 +151,9 @@ CMakeFiles/stacks_and_queues.dir/build: stacks_and_queues
 
 .PHONY : CMakeFiles/stacks_and_queues.dir/build
 
-CMakeFiles/stacks_and_queues.dir/requires: CMakeFiles/stacks_and_queues.dir/main.cpp.o.requires
-CMakeFiles/stacks_and_queues.dir/requires: CMakeFiles/stacks_and_queues.dir/Point.cpp.o.requires
-CMakeFiles/stacks_and_queues.dir/requires: CMakeFiles/stacks_and_queues.dir/Person.cpp.o.requires
+CMakeFiles/stacks_and_queues.dir/requires: CMakeFiles/stacks_and_queues.dir/src/main.cpp.o.requires
+CMakeFiles/stacks_and_queues.dir/requires: CMakeFiles/stacks_and_queues.dir/src/Point.cpp.o.requires
+CMakeFiles/stacks_and_queues.dir/requires: CMakeFiles/stacks_and_queues.dir/src/Person.cpp.o.requires
 
 .PHONY : CMakeFiles/stacks_and_queues.dir/requires
 

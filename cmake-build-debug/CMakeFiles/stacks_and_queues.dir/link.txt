@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/stacks_and_queues.dir/main.cpp.o CMakeFiles/stacks_and_queues.dir/Point.cpp.o CMakeFiles/stacks_and_queues.dir/Person.cpp.o  -o stacks_and_queues 
+/Library/Developer/CommandLineTools/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/stacks_and_queues.dir/src/main.cpp.o CMakeFiles/stacks_and_queues.dir/src/Point.cpp.o CMakeFiles/stacks_and_queues.dir/src/Person.cpp.o  -o stacks_and_queues 

@@ -123,86 +123,86 @@ stacks_and_queues/fast:
 	$(MAKE) -f CMakeFiles/stacks_and_queues.dir/build.make CMakeFiles/stacks_and_queues.dir/build
 .PHONY : stacks_and_queues/fast
 
-Person.o: Person.cpp.o
+src/Person.o: src/Person.cpp.o
 
-.PHONY : Person.o
-
-# target to build an object file
-Person.cpp.o:
-	$(MAKE) -f CMakeFiles/stacks_and_queues.dir/build.make CMakeFiles/stacks_and_queues.dir/Person.cpp.o
-.PHONY : Person.cpp.o
-
-Person.i: Person.cpp.i
-
-.PHONY : Person.i
-
-# target to preprocess a source file
-Person.cpp.i:
-	$(MAKE) -f CMakeFiles/stacks_and_queues.dir/build.make CMakeFiles/stacks_and_queues.dir/Person.cpp.i
-.PHONY : Person.cpp.i
-
-Person.s: Person.cpp.s
-
-.PHONY : Person.s
-
-# target to generate assembly for a file
-Person.cpp.s:
-	$(MAKE) -f CMakeFiles/stacks_and_queues.dir/build.make CMakeFiles/stacks_and_queues.dir/Person.cpp.s
-.PHONY : Person.cpp.s
-
-Point.o: Point.cpp.o
-
-.PHONY : Point.o
+.PHONY : src/Person.o
 
 # target to build an object file
-Point.cpp.o:
-	$(MAKE) -f CMakeFiles/stacks_and_queues.dir/build.make CMakeFiles/stacks_and_queues.dir/Point.cpp.o
-.PHONY : Point.cpp.o
+src/Person.cpp.o:
+	$(MAKE) -f CMakeFiles/stacks_and_queues.dir/build.make CMakeFiles/stacks_and_queues.dir/src/Person.cpp.o
+.PHONY : src/Person.cpp.o
 
-Point.i: Point.cpp.i
+src/Person.i: src/Person.cpp.i
 
-.PHONY : Point.i
+.PHONY : src/Person.i
 
 # target to preprocess a source file
-Point.cpp.i:
-	$(MAKE) -f CMakeFiles/stacks_and_queues.dir/build.make CMakeFiles/stacks_and_queues.dir/Point.cpp.i
-.PHONY : Point.cpp.i
+src/Person.cpp.i:
+	$(MAKE) -f CMakeFiles/stacks_and_queues.dir/build.make CMakeFiles/stacks_and_queues.dir/src/Person.cpp.i
+.PHONY : src/Person.cpp.i
 
-Point.s: Point.cpp.s
+src/Person.s: src/Person.cpp.s
 
-.PHONY : Point.s
+.PHONY : src/Person.s
 
 # target to generate assembly for a file
-Point.cpp.s:
-	$(MAKE) -f CMakeFiles/stacks_and_queues.dir/build.make CMakeFiles/stacks_and_queues.dir/Point.cpp.s
-.PHONY : Point.cpp.s
+src/Person.cpp.s:
+	$(MAKE) -f CMakeFiles/stacks_and_queues.dir/build.make CMakeFiles/stacks_and_queues.dir/src/Person.cpp.s
+.PHONY : src/Person.cpp.s
 
-main.o: main.cpp.o
+src/Point.o: src/Point.cpp.o
 
-.PHONY : main.o
+.PHONY : src/Point.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/stacks_and_queues.dir/build.make CMakeFiles/stacks_and_queues.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/Point.cpp.o:
+	$(MAKE) -f CMakeFiles/stacks_and_queues.dir/build.make CMakeFiles/stacks_and_queues.dir/src/Point.cpp.o
+.PHONY : src/Point.cpp.o
 
-main.i: main.cpp.i
+src/Point.i: src/Point.cpp.i
 
-.PHONY : main.i
+.PHONY : src/Point.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/stacks_and_queues.dir/build.make CMakeFiles/stacks_and_queues.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/Point.cpp.i:
+	$(MAKE) -f CMakeFiles/stacks_and_queues.dir/build.make CMakeFiles/stacks_and_queues.dir/src/Point.cpp.i
+.PHONY : src/Point.cpp.i
 
-main.s: main.cpp.s
+src/Point.s: src/Point.cpp.s
 
-.PHONY : main.s
+.PHONY : src/Point.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/stacks_and_queues.dir/build.make CMakeFiles/stacks_and_queues.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/Point.cpp.s:
+	$(MAKE) -f CMakeFiles/stacks_and_queues.dir/build.make CMakeFiles/stacks_and_queues.dir/src/Point.cpp.s
+.PHONY : src/Point.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/stacks_and_queues.dir/build.make CMakeFiles/stacks_and_queues.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/stacks_and_queues.dir/build.make CMakeFiles/stacks_and_queues.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/stacks_and_queues.dir/build.make CMakeFiles/stacks_and_queues.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -213,15 +213,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... stacks_and_queues"
-	@echo "... Person.o"
-	@echo "... Person.i"
-	@echo "... Person.s"
-	@echo "... Point.o"
-	@echo "... Point.i"
-	@echo "... Point.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/Person.o"
+	@echo "... src/Person.i"
+	@echo "... src/Person.s"
+	@echo "... src/Point.o"
+	@echo "... src/Point.i"
+	@echo "... src/Point.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

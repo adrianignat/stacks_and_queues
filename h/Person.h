@@ -8,9 +8,9 @@ using namespace std;
 
 class Person {
 public:
-    string nom;
+    string name;
     Point *poz;
-    Person(string nom, Point *poz);
+    Person(string name, Point *location);
     void locate();
 
 };
