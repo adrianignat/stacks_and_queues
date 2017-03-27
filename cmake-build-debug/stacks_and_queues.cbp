@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="stacks_and_queues"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stacks_and_queues">
+				<Option output="/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug/stacks_and_queues" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug/Makefile&quot;  VERBOSE=1 stacks_and_queues"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stacks_and_queues/fast">
+				<Option output="/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug/stacks_and_queues" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug/Makefile&quot;  VERBOSE=1 stacks_and_queues/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/adrignat/Personal/projects/stacks_and_queues/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/adrignat/Personal/projects/stacks_and_queues/Person.cpp">
+			<Option target="stacks_and_queues"/>
+		</Unit>
+		<Unit filename="/Users/adrignat/Personal/projects/stacks_and_queues/Person.h">
+			<Option target="stacks_and_queues"/>
+		</Unit>
+		<Unit filename="/Users/adrignat/Personal/projects/stacks_and_queues/Point.cpp">
+			<Option target="stacks_and_queues"/>
+		</Unit>
+		<Unit filename="/Users/adrignat/Personal/projects/stacks_and_queues/Point.h">
+			<Option target="stacks_and_queues"/>
+		</Unit>
+		<Unit filename="/Users/adrignat/Personal/projects/stacks_and_queues/main.cpp">
+			<Option target="stacks_and_queues"/>
+		</Unit>
+		<Unit filename="/Users/adrignat/Personal/projects/stacks_and_queues/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

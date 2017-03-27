@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/adrignat/Personal/projects/stacks_and_queues/Person.cpp
+iostream
+-
+Person.h
+/Users/adrignat/Personal/projects/stacks_and_queues/Person.h
+
+/Users/adrignat/Personal/projects/stacks_and_queues/Person.h
+string
+-
+Point.h
+/Users/adrignat/Personal/projects/stacks_and_queues/Point.h
+
+/Users/adrignat/Personal/projects/stacks_and_queues/Point.cpp
+iostream
+-
+Point.h
+/Users/adrignat/Personal/projects/stacks_and_queues/Point.h
+
+/Users/adrignat/Personal/projects/stacks_and_queues/Point.h
+
+/Users/adrignat/Personal/projects/stacks_and_queues/main.cpp
+iostream
+-
+Person.h
+/Users/adrignat/Personal/projects/stacks_and_queues/Person.h
+
