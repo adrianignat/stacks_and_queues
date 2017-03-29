@@ -8,7 +8,11 @@ CMakeFiles/stacks_and_queues.dir/src/Person.cpp.o: ../src/Person.cpp
 CMakeFiles/stacks_and_queues.dir/src/Point.cpp.o: ../h/Point.h
 CMakeFiles/stacks_and_queues.dir/src/Point.cpp.o: ../src/Point.cpp
 
-CMakeFiles/stacks_and_queues.dir/src/main.cpp.o: ../h/Person.h
-CMakeFiles/stacks_and_queues.dir/src/main.cpp.o: ../h/Point.h
+CMakeFiles/stacks_and_queues.dir/src/Queue.cpp.o: ../h/Order.h
+CMakeFiles/stacks_and_queues.dir/src/Queue.cpp.o: ../h/Queue.h
+CMakeFiles/stacks_and_queues.dir/src/Queue.cpp.o: ../src/Queue.cpp
+
+CMakeFiles/stacks_and_queues.dir/src/main.cpp.o: ../h/Order.h
+CMakeFiles/stacks_and_queues.dir/src/main.cpp.o: ../h/Queue.h
 CMakeFiles/stacks_and_queues.dir/src/main.cpp.o: ../src/main.cpp
 

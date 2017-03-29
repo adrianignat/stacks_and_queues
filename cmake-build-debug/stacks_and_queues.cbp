@@ -82,16 +82,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/adrignat/Personal/projects/stacks_and_queues/h/Order.h">
+			<Option target="stacks_and_queues"/>
+		</Unit>
 		<Unit filename="/Users/adrignat/Personal/projects/stacks_and_queues/h/Person.h">
 			<Option target="stacks_and_queues"/>
 		</Unit>
 		<Unit filename="/Users/adrignat/Personal/projects/stacks_and_queues/h/Point.h">
 			<Option target="stacks_and_queues"/>
 		</Unit>
+		<Unit filename="/Users/adrignat/Personal/projects/stacks_and_queues/h/Queue.h">
+			<Option target="stacks_and_queues"/>
+		</Unit>
 		<Unit filename="/Users/adrignat/Personal/projects/stacks_and_queues/src/Person.cpp">
 			<Option target="stacks_and_queues"/>
 		</Unit>
 		<Unit filename="/Users/adrignat/Personal/projects/stacks_and_queues/src/Point.cpp">
+			<Option target="stacks_and_queues"/>
+		</Unit>
+		<Unit filename="/Users/adrignat/Personal/projects/stacks_and_queues/src/Queue.cpp">
 			<Option target="stacks_and_queues"/>
 		</Unit>
 		<Unit filename="/Users/adrignat/Personal/projects/stacks_and_queues/src/main.cpp">

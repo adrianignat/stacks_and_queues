@@ -177,6 +177,33 @@ src/Point.cpp.s:
 	$(MAKE) -f CMakeFiles/stacks_and_queues.dir/build.make CMakeFiles/stacks_and_queues.dir/src/Point.cpp.s
 .PHONY : src/Point.cpp.s
 
+src/Queue.o: src/Queue.cpp.o
+
+.PHONY : src/Queue.o
+
+# target to build an object file
+src/Queue.cpp.o:
+	$(MAKE) -f CMakeFiles/stacks_and_queues.dir/build.make CMakeFiles/stacks_and_queues.dir/src/Queue.cpp.o
+.PHONY : src/Queue.cpp.o
+
+src/Queue.i: src/Queue.cpp.i
+
+.PHONY : src/Queue.i
+
+# target to preprocess a source file
+src/Queue.cpp.i:
+	$(MAKE) -f CMakeFiles/stacks_and_queues.dir/build.make CMakeFiles/stacks_and_queues.dir/src/Queue.cpp.i
+.PHONY : src/Queue.cpp.i
+
+src/Queue.s: src/Queue.cpp.s
+
+.PHONY : src/Queue.s
+
+# target to generate assembly for a file
+src/Queue.cpp.s:
+	$(MAKE) -f CMakeFiles/stacks_and_queues.dir/build.make CMakeFiles/stacks_and_queues.dir/src/Queue.cpp.s
+.PHONY : src/Queue.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -219,6 +246,9 @@ help:
 	@echo "... src/Point.o"
 	@echo "... src/Point.i"
 	@echo "... src/Point.s"
+	@echo "... src/Queue.o"
+	@echo "... src/Queue.i"
+	@echo "... src/Queue.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
