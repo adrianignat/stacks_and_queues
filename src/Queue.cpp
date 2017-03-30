@@ -30,17 +30,15 @@ void Queue::enqueue() {
     first = temp;
 }
 
-void Queue::dequeue() {
-    Order *temp;
+Order* Queue::dequeue() {
+    Order *order;
 
     if (last == NULL) {
-        cout << "\nQueue is Emtpty\n";
+        return NULL;
     } else {
-        temp = last;
+        order = last;
         last = last->next;
-        cout << "The Order time is " << temp->time << ". ";
-        cout << "The Order duration is " << temp->duration << "." << endl;
-        delete temp;
+        return order;
     }
 }
 
@@ -53,8 +51,8 @@ void Queue::display() {
     } else {
         while (p != NULL) {
             count++;
-            cout << endl << count << ": ";
-            cout << "Time: " << p->time << " Duration: " << p->duration;
+            cout << count << ": ";
+            cout << "Time: " << p->time << " Duration: " << p->duration << endl;
             p = p->next;
         }
     }

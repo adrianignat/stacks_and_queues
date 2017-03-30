@@ -2,8 +2,6 @@
 #define STACKS_AND_QUEUES_QUEUE_H
 
 #include <iostream>
-
-#include <cstdlib>
 #include "Order.h"
 
 using namespace std;
@@ -15,7 +13,7 @@ class Queue {
 public:
     Queue();
     void enqueue();
-    void dequeue();
+    Order * dequeue();
     void display();
 };
 
