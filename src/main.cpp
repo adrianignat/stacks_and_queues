@@ -21,29 +21,41 @@ int main() {
 
     Order* order = queue.dequeue();
 
+    //if there are no elements in the queue, dequeue will return null
     while (order != NULL) {
 
+        //determine max order duration
         if (order->duration > maxOrderTime)
             maxOrderTime = order->duration;
 
+        //print chef idle time
         if (lastOrderFinishTime < order->time) {
             idleTimeStart = lastOrderFinishTime;
             idleTimeEnd = order->time;
 
-            cout << "The chef takes a break (the queue is empty) between the times "
-                 << idleTimeStart << " and " << idleTimeEnd << endl;
+            if (idleTimeStart < closingTime) {
+                if (idleTimeEnd > closingTime) {
+                    idleTimeEnd = closingTime;
+                }
 
+                cout << "The chef takes a break (the queue is empty) between the times "
+                     << idleTimeStart << " and " << idleTimeEnd << endl;
+            }
+            //jump to the next finish time
             lastOrderFinishTime = order->time + order->duration;
         }
         else {
+            //add the order duration to the total time
             lastOrderFinishTime += order->duration;
         }
 
         cout << "Order " << orderCount << ": expected completion time = "
              << order->time + order->duration << ", actual completion time = " << lastOrderFinishTime << endl;
 
+        //after dequeue delete the order to free memory
         delete order;
 
+        //jump to the next element
         order = queue.dequeue();
         orderCount++;
     }
